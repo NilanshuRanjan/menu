@@ -1,7 +1,7 @@
 import mysql.connector as mc
 
 db = mc.connect(host="localhost", user="root",
-                password="nilanshu123A",
+                password="mysql-password",
                 database="restaurant")
 cur = db.cursor()
 
